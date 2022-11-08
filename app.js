@@ -41,8 +41,8 @@ app.post('/add', function(req,res){
         console.log(err.message);
         io.emit('result', 'An error occurred');
       }
-      console.log("New employee has been added");
-      io.emit('result', 'Employee added successfully');
+      console.log("Ticket has been added");
+      io.emit('result', 'Ticket added successfully');
     });
 
   });
